@@ -79,7 +79,7 @@ const deletePackage = await delete.Package("packageID")
 #### Find options
 
 ```js
-import { Find } from "infakt"
+import { Find } from "inpost-pl-wrapper"
 const find = new Find("inPost API Key")
 const stashesInRadius = await Find.stashesInRadius("radius in Meters" , "postalcode in format like 00-001")
 const shipmentInfo = await Find.shipmentTracking("tracking number") 
